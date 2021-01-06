@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;  
+    padding: 5%;
+}
+ 
+ a{
+    text-decoration: none;
+}
+#menu{
+    list-style: none;
+    float: right;
+}
+#menu li{
+    float: left;
+}
+#menu li a{
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 1px 50px;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color:dimgray;
+}
+.orange-highlight{
+    color:orange
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width:50%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.single-experience{
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    width: 350px;
+    
+
+}
+
+
+.experience-area{
+    display: block;
+    clear: both;
+    height: 600px;
+    background-color: gray;
+}
+.finish{
+    padding: 10px;
+    margin:5px
+}
+.section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.Bottom-Banner{
+
+    height: 400px;
+    padding: 50px 5px;
+}
+.Image-Box{
+    background-image: url("images/bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    padding: 140px 50px;
+    margin: 50px 0px;
+
+}
+.Work{
+    float: left;
+    width: 50%;
+
+}
+.Work h2{
+    font-size: 40px;
+    color: white;
+    
+}
+.Chat{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.experience{
+    border: 30px solid orange;
+    width: 800px;
+    height: 400px;
+    margin: auto ;
+    padding: 10px 10px 40px;
+}
+.container{
+    text-align: center;
+}
