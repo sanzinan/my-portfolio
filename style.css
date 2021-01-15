@@ -1,16 +1,26 @@
 body{
-    margin: 0%;
+    margin: 5%;
     font-family: 'Poppins', sans-serif;  
-    padding: 5%;
+    
     line-height: .5cm;
 }
  
  a{
     text-decoration: none;
 }
-#menu{
-    list-style: none;
+ #menu{ 
+    list-style: none; 
     float: right;
+  
+  
+}
+
+.menus{
+    margin: 40px;
+    padding: 40px;
+    width: 90%;
+
+    
 }
 #menu li{
     float: left;
@@ -31,16 +41,27 @@ h2{
 }
 p{
     color:dimgray;
+    text-align: left;
 }
 .orange-highlight{
     color:orange
 }
 
+.me{
+    display: flex;
+}
+
+
+
+
 .half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    width: 80%;
+   
+  
+    margin: 40px;
+    padding: 40px;
+  
+
 }
 
 .half-width img{
@@ -53,11 +74,13 @@ p{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    text-align: right;
+    
 }
 
 .single-experience{
     box-shadow: 5px 5px 30px gray;
-    border-radius: 5px;
+    border-radius: 12px;
     height: 50%;
     background-color: white;
     width: 350px;
@@ -67,17 +90,15 @@ p{
 
 
 .experience-area{
-    display: block;
+    display: flex;
     clear: both;
     height: 600px;
     background-color: white;
+    width: 100%;
 
 }
 
-.section{
-    height: 500px;
-    padding-bottom: 150px;
-}
+
 .Bottom-Banner{
 
     height: 400px;
@@ -90,29 +111,45 @@ p{
     width: 90%;
     padding: 140px 50px;
     margin: 50px 0px;
+    
 
 }
 .Work{
     float: left;
     width: 50%;
+    height: 80%;
 
 }
-.Work h2{
+
+.link-button-chat{
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-align: right;
+    float:right;
+   
+}
+.Work h1{
     font-size: 40px;
     color: white;
+     margin: 2px;
+     padding: 5px;
+
     
 }
-.Chat{
-    float: right;
-    width: 50%;
-    text-align: right;
-}
+
 .experience{
-    border: 30px solid orange;
-    width: 800px;
+    border: 30px solid blueviolet;
+    width: 90%;
     height: 300px;
     margin: auto ;
     padding: 10px 10px 40px;
+    border-radius: 12px;
+   
 }
 .container{
     text-align: center;
@@ -127,8 +164,25 @@ p{
     text-align: center;
 }
 
+.menu{
+    padding: 50px;
+}
+
+
 h5{
     font-size: 30px;
-    text-align: center;
-    padding-top: 30px;
+   margin: 30px;
+    padding: 30px;
+}
+
+
+.add img{
+    width: 30%;
+    
+    
+    float: right;
+}
+
+.add{
+    display: flex;
 }
